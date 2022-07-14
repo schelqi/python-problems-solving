@@ -24,7 +24,7 @@ for i in range(M):
 array_1 = numpy.array(list_1)
 array_2 = numpy.array(list_2)
 
-
+# Concatenate arrays
 result = numpy.concatenate((array_1, array_2))
 
 print(result)
