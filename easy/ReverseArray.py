@@ -4,6 +4,7 @@ def arrays(arr):  # arr is a list
     # complete this function
     # use numpy.array
     array = numpy.array(arr, float)
+    # Reverse array
     reversed_array = array[::-1]
     return reversed_array
 
